@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SavingUIStatesNotes</string>
+    <string name="button">Button</string>
+    <string name="value">Value</string>
+    <string name="enter_phone_number">Enter phone number</string>
+
+    <string name="password">password</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="switch1">Switch1</string>
+</resources>
