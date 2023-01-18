@@ -9,6 +9,9 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var button: Button
     lateinit var numDisplay: TextView
+    lateinit var switch: Switch
+    lateinit var password:EditText
+    lateinit var checkBox: CheckBox
 
     var num = 0
 
@@ -18,6 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         button = findViewById(R.id.button)
         numDisplay = findViewById(R.id.text_value)
+        switch = findViewById(R.id.switch1)
+        password = findViewById(R.id.password)
+        checkBox = findViewById(R.id.checkBox2)
 
 
         numDisplay.text = num.toString()
